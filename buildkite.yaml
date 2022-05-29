@@ -1,5 +1,5 @@
 steps:
-  - label: update gotip
+  - label: build and push container
     depends_on: ~
     commands:
       - docker build -t ghcr.io/seankhliao/webserve .
