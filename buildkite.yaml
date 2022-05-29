@@ -1,0 +1,7 @@
+steps:
+  - label: update gotip
+    depends_on: ~
+    commands:
+      - docker build -t ghcr.io/seankhliao/webserve .
+      - docker push ghcr.io/seankhliao/webserve
+      - cosign sign --key ~/.ssh/cosign.key ghcr.io/seankhliao/webserve
