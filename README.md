@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/github/license/seankhliao/webserve.svg?style=flat-square)](LICENSE)
 
 basic webserver following firebase:
+
 ```json
 {
   "cleanUrls": true,
